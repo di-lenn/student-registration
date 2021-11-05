@@ -54,4 +54,15 @@ public class Course {
     public void setEndDate(DateTime endDate) {
         this.endDate = endDate;
     }
+
+    @Override
+    public String toString() {
+        return "Course{" +
+                "name='" + name + '\'' +
+                ", modules=" + modules +
+                ", students=" + students +
+                ", startDate=" + startDate +
+                ", endDate=" + endDate +
+                '}';
+    }
 }

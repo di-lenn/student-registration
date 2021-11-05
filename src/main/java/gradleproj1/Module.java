@@ -44,4 +44,14 @@ public class Module {
     public void setCourses(ArrayList<String> courses) {
         this.courses = courses;
     }
+
+    @Override
+    public String toString() {
+        return "Module{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", students=" + students +
+                ", courses=" + courses +
+                '}';
+    }
 }

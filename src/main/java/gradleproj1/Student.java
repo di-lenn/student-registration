@@ -68,4 +68,17 @@ public class Student {
     public void setModules(ArrayList<Module> modules) {
         this.modules = modules;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", dob='" + dob + '\'' +
+                ", id=" + id +
+                ", username='" + username + '\'' +
+                ", courses=" + courses +
+                ", modules=" + modules +
+                '}';
+    }
 }
