@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gradleproj2.ModuleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-05T22:36:16" hostname="Dylans-MBP.local" time="0.002">
+  <properties/>
+  <testcase name="Course List retrieval should work" classname="gradleproj2.ModuleTest" time="0.0"/>
+  <testcase name="Name set should work" classname="gradleproj2.ModuleTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
