@@ -7,17 +7,12 @@ import java.util.ArrayList;
 public class Course {
 
     private String name;
-    private ArrayList<Module> modules;
-    private ArrayList<Student> students;
+    private ArrayList<String> modules;
+    private ArrayList<String> students;
     private DateTime startDate;
     private DateTime endDate;
 
-    public Course(String name, DateTime startDate, DateTime endDate) {
-        this.name = name;
-        this.startDate = startDate;
-        this.endDate = endDate;
-        modules = new ArrayList<Module>();
-        students = new ArrayList<Student>();
+    public Course() {
     }
 
     public String getName() {
@@ -28,19 +23,19 @@ public class Course {
         this.name = name;
     }
 
-    public ArrayList<Module> getModules() {
+    public ArrayList<String> getModules() {
         return modules;
     }
 
-    public void setModules(ArrayList<Module> modules) {
+    public void setModules(ArrayList<String> modules) {
         this.modules = modules;
     }
 
-    public ArrayList<Student> getStudents() {
+    public ArrayList<String> getStrings() {
         return students;
     }
 
-    public void setStudents(ArrayList<Student> students) {
+    public void setStrings(ArrayList<String> students) {
         this.students = students;
     }
 

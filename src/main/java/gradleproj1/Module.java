@@ -6,14 +6,11 @@ public class Module {
 
     private String name;
     private int id;
-    private ArrayList<Student> students;
-    private ArrayList<Course> courses;
+    private ArrayList<String> students;
+    private ArrayList<String> courses;
 
-    public Module(String name, int id) {
-        this.name = name;
-        this.id = id;
-        students = new ArrayList<Student>();
-        courses = new ArrayList<Course>();
+    public Module() {
+
     }
 
     public String getName() {
@@ -32,19 +29,19 @@ public class Module {
         this.id = id;
     }
 
-    public ArrayList<Student> getStudents() {
+    public ArrayList<String> getStudents() {
         return students;
     }
 
-    public void setStudents(ArrayList<Student> students) {
+    public void setStudents(ArrayList<String> students) {
         this.students = students;
     }
 
-    public ArrayList<Course> getCourses() {
+    public ArrayList<String> getCourses() {
         return courses;
     }
 
-    public void setCourses(ArrayList<Course> courses) {
+    public void setCourses(ArrayList<String> courses) {
         this.courses = courses;
     }
 }

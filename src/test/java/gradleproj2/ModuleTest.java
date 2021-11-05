@@ -5,21 +5,37 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ModuleTest {
 
-    Module module;
+//    Module module;
+//
+//    @BeforeEach
+//    void setUp() {
+//        module = new Module();
+//    }
 
-    @BeforeEach
-    void setUp() {
-        module = new Module("Software Engineering III", 417);
+    @Test
+    @DisplayName("Name set should work")
+    public void testSetName() {
+        String name = "Machine Learning";
+        Module instance = new Module();
+        instance.setName(name);
+        assertEquals(name,instance.getName());
     }
 
     @Test
-    @DisplayName("Username generation should work")
-    void testGetID() {
-        assertEquals(417, module.getId(),
-                "Fetching module ID should work");
+    @DisplayName("Course List retrieval should work")
+    public void testGetCourses() {
+        Module instance = new Module();
+        ArrayList<String> expResult = new ArrayList<>();
+        expResult.add("BCT");
+        expResult.add("DST");
+        instance.setCourses(expResult);
+        ArrayList<String> result = instance.getCourses();
+        assertEquals(expResult, result);
     }
 }
