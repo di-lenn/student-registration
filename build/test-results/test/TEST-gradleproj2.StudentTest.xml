@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="gradleproj2.StudentTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-11-05T22:36:15" hostname="Dylans-MBP.local" time="0.052">
+<testsuite name="gradleproj2.StudentTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-11-05T22:57:50" hostname="Dylans-MBP.local" time="0.044">
   <properties/>
-  <testcase name="ID num retrieval should work" classname="gradleproj2.StudentTest" time="0.02"/>
+  <testcase name="ID num retrieval should work" classname="gradleproj2.StudentTest" time="0.022"/>
   <testcase name="Setting Course should work" classname="gradleproj2.StudentTest" time="0.002"/>
-  <testcase name="Username generation should work" classname="gradleproj2.StudentTest" time="0.016"/>
-  <testcase name="Age retrieval should work" classname="gradleproj2.StudentTest" time="0.005"/>
-  <testcase name="List of Modules retrieval should work" classname="gradleproj2.StudentTest" time="0.003"/>
+  <testcase name="Username generation should work" classname="gradleproj2.StudentTest" time="0.012"/>
+  <testcase name="Age retrieval should work" classname="gradleproj2.StudentTest" time="0.001"/>
+  <testcase name="List of Modules retrieval should work" classname="gradleproj2.StudentTest" time="0.001"/>
   <testcase name="Setting Date Of Birth should work" classname="gradleproj2.StudentTest" time="0.001"/>
   <system-out><![CDATA[getId
 setCourses
