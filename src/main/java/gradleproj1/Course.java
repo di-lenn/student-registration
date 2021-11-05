@@ -7,8 +7,8 @@ import java.util.ArrayList;
 public class Course {
 
     private String name;
-    private ArrayList<String> modules;
-    private ArrayList<String> students;
+    private ArrayList<Module> modules;
+    private ArrayList<Student> students;
     private DateTime startDate;
     private DateTime endDate;
 
@@ -23,19 +23,19 @@ public class Course {
         this.name = name;
     }
 
-    public ArrayList<String> getModules() {
+    public ArrayList<Module> getModules() {
         return modules;
     }
 
-    public void setModules(ArrayList<String> modules) {
+    public void setModules(ArrayList<Module> modules) {
         this.modules = modules;
     }
 
-    public ArrayList<String> getStrings() {
+    public ArrayList<Student> getStudents() {
         return students;
     }
 
-    public void setStrings(ArrayList<String> students) {
+    public void setStudents(ArrayList<Student> students) {
         this.students = students;
     }
 

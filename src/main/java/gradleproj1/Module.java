@@ -6,7 +6,7 @@ public class Module {
 
     private String name;
     private int id;
-    private ArrayList<String> students;
+    private ArrayList<Student> students;
     private ArrayList<String> courses;
 
     public Module() {
@@ -29,11 +29,11 @@ public class Module {
         this.id = id;
     }
 
-    public ArrayList<String> getStudents() {
+    public ArrayList<Student> getStudents() {
         return students;
     }
 
-    public void setStudents(ArrayList<String> students) {
+    public void setStudents(ArrayList<Student> students) {
         this.students = students;
     }
 

@@ -33,7 +33,7 @@ public class ModuleTest {
         Module instance = new Module();
         ArrayList<String> expResult = new ArrayList<>();
         expResult.add("BCT");
-        expResult.add("DST");
+        expResult.add("DS&T");
         instance.setCourses(expResult);
         ArrayList<String> result = instance.getCourses();
         assertEquals(expResult, result);
